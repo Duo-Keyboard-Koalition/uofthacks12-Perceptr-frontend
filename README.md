@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Perceptr 🌟🌐
 
-## Getting Started
+Perceptr is a cutting-edge web application designed to enhance user interaction and engagement through dynamic visuals, AI-powered insights, and seamless user experiences. Built with Next.js, it leverages modern web technologies to deliver a responsive and visually appealing interface.
 
-First, run the development server:
+## Features 🎯
+
+- **Dynamic Backgrounds**: Powered by Vanta.js for stunning animated visuals.
+- **User Authentication**: Secure login and user management using Auth0.
+- **Interactive Surveys**: Collect user feedback with a smooth and engaging survey flow.
+- **Real-time Chat**: Communicate in real-time with other users.
+- **Audio Integration**: Play audio clips to enhance user interaction.
+- **Perspective Mapping**: AI-powered embeddings to visualize user values and foster meaningful connections.
+
+## How It Works 🎮
+
+1. **Short-Answer Prompts**: Users respond to open-ended questions designed to reveal their core values and perspectives.
+2. **AI-Powered Embedding**: Responses are converted into personalized vectors that represent their unique outlook.
+3. **Perspective Map**: Explore an interactive visualization that highlights shared values, unique traits, and connections with others.
+4. **Social Discovery**: Connect with like-minded individuals or explore contrasting viewpoints for meaningful conversations.
+
+## Getting Started 🚀
+
+First, clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-repo/perceptr.git
+cd perceptr
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## File Structure 📂
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/`: Contains the main application pages and components.
+- `components/`: Reusable UI components like buttons and text areas.
+- `public/`: Static assets like images and audio files.
+- `lib/`: Utility functions for the application.
 
-## Learn More
+## Deployment 🌐
 
-To learn more about Next.js, take a look at the following resources:
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/). Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack 🛠️
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ⚛️ **React + Next.js**: Fast, user-friendly interface.
+- 🌐 **FastAPI Backend**: Real-time data processing and AI model interaction.
+- 🔒 **Auth0**: Secure and seamless login experience.
+- 📦 **Pinecone Vector Database**: Efficient similarity search for perspective embeddings.
+- 🤖 **OpenAI Embeddings**: Converts user responses into nuanced vector representations.
+- 🌈 **Tailwind CSS**: Clean, modern design for an intuitive experience.
+- 🗺️ **Plotly**: Clean, modern data plotting design.
 
-## Deploy on Vercel
+## Why Perceptr? 🌍
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🌟 **Bridge Perspectives**: Build empathy and connection through shared values and differences.
+- 🌐 **Promote Self-Discovery**: Help users align their lives with what truly matters.
+- 📊 **Data-Driven Growth**: Enable organizations and communities to act on value-based insights.
+- 🌍 **Celebrate Inclusivity**: Highlight diversity while finding common ground.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Discover the power of understanding perspectives to foster personal growth, meaningful connections, and impactful change. 🌿
+
+

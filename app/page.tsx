@@ -2,13 +2,13 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from "@/components/ui/button";
-import { useUser } from "@/components/UserProvider";
+import { useUser } from "@/components/UserProvider"
 
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 
-const DynamicVantaBackground = dynamic(() => import('./components/VantageBackground'), {
+const DynamicVantaBackground = dynamic(() => import('../components/components/VantageBackground'), {
   ssr: false
 });
 
@@ -37,7 +37,7 @@ export default function Home() {
     }
   }, [user, router]);
 
-  if (error) return <div>{error.message}</div>;
+  if (error) return <div>{error}</div>;
 
   return (
     <DynamicVantaBackground>

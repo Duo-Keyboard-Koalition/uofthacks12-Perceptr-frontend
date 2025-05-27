@@ -8,10 +8,10 @@ import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { useUser } from "@auth0/nextjs-auth0/client"
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
-import LoadingScreen from '../components/loadingScreen'
+import LoadingScreen from '@/components/components/loadingScreen'
 import dynamic from 'next/dynamic';
 
-const DynamicVantaBackground = dynamic(() => import('../components/VantageBackground'), {
+const DynamicVantaBackground = dynamic(() => import('@/components/components/VantageBackground'), {
   ssr: false
 });
 
