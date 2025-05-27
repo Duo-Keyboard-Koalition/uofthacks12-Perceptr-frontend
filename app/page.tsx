@@ -2,7 +2,8 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from "@/components/ui/button";
-import { useUser } from "@auth0/nextjs-auth0/client";
+import { useUser } from "@/components/UserProvider";
+
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';

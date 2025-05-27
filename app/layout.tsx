@@ -1,7 +1,7 @@
 'use client'
 // import type { Metadata } from "next";
 import { Geist, Azeret_Mono as Geist_Mono } from 'next/font/google';
-import { UserProvider } from '@auth0/nextjs-auth0/client';
+import { UserProvider } from '@/components/UserProvider';
 import "./globals.css";
 import Script from "next/script";
 import { AudioButton } from "./components/audio-button";
@@ -38,8 +38,8 @@ export default function RootLayout({
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js" strategy="beforeInteractive" />
         <Script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js" strategy="beforeInteractive" />
       </head>
-      <UserProvider>
-        <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <UserProvider>
           <AudioButton />
           {children}
           {children}
@@ -52,8 +52,8 @@ export default function RootLayout({
               <MessageCircle className="w-6 h-6 text-black" />
             </Link>
           )}
-        </body>
-      </UserProvider>
+        </UserProvider>
+      </body>
     </html>
   );
 }
