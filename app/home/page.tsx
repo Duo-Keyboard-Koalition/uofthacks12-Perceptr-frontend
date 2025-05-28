@@ -5,9 +5,9 @@ import { useUser } from "@auth0/nextjs-auth0/client"
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import { Button } from '@/components/ui/button'
-import ClientScatter from '@/components/components/clientScatter'
+import ClientScatter from '@/components/resources/clientScatter'
 import { useCheckUser } from '../hooks/useCheckUser'
-import LoadingScreen from '@/components/components/loadingScreen'
+import LoadingScreen from '@/components/resources/loadingScreen'
 
 export default function HomePage() {
   const router = useRouter();

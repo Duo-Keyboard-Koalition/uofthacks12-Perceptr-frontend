@@ -2,13 +2,13 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from "@/components/ui/button";
-import { useUser } from "@/components/UserProvider"
+import { useUser } from "@/lib/UserProvider"
 
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 
-const DynamicVantaBackground = dynamic(() => import('../components/components/VantageBackground'), {
+const DynamicVantaBackground = dynamic(() => import('../components/resources/VantageBackground'), {
   ssr: false
 });
 

@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { useCheckUser } from '../hooks/useCheckUser';
-import LoadingScreen from '@/components/components/loadingScreen';
+import LoadingScreen from '@/components/resources/loadingScreen';
 
 const questions = [
   {

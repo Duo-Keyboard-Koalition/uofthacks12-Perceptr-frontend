@@ -1,10 +1,10 @@
 'use client'
 // import type { Metadata } from "next";
 import { Geist, Azeret_Mono as Geist_Mono } from 'next/font/google';
-import { UserProvider } from '@/components/UserProvider';
+import { UserProvider } from '@/lib/UserProvider';
 import "./globals.css";
 import Script from "next/script";
-import { AudioButton } from "@/components/components/audio-button";
+import { AudioButton } from "@/components/resources/audio-button";
 import Link from 'next/link';
 import { MessageCircle } from 'lucide-react';
 import { usePathname } from 'next/navigation'

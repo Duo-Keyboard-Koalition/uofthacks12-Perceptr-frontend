@@ -1,12 +1,12 @@
 'use client'
 
 import { useState } from 'react'
-import RoomSelector from '@/components/components/RoomSelector'
-import ChatMessage from '@/components/components/ChatMessage'
-import MessageInput from '@/components/components/MessageInput'
+import RoomSelector from '@/components/resources/RoomSelector'
+import ChatMessage from '@/components/resources/ChatMessage'
+import MessageInput from '@/components/resources/MessageInput'
 import dynamic from 'next/dynamic';
 
-const DynamicVantaBackground = dynamic(() => import('@/components/components/VantageBackground'), {
+const DynamicVantaBackground = dynamic(() => import('@/components/resources/VantageBackground'), {
   ssr: false
 });
 
